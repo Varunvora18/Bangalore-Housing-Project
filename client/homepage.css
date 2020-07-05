@@ -1,0 +1,131 @@
+/* Navbar */
+.navbar {
+  padding: 0 0 1rem;
+}
+
+#title_text{
+  color: #424874;
+}
+
+.navbar-brand {
+  color: white;
+  padding: 20px 30px 10px;
+  margin: 10px;
+  text-align: center;
+  font-family: cursive;
+  font-size: 3rem;
+
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: cursive;
+  color: #a6b1e1;
+}
+
+/* Welcome Section */
+.desc{
+  font-family: cursive;
+  font-size: 5rem;
+  padding-bottom: 50px;
+  text-align: center;
+}
+
+#price{
+color: #424874;
+padding: 24px 40px;
+margin-left: 320px;
+border-radius: 5px;
+border: 2px solid;
+}
+#price:hover{
+background-color: #f3d1f4;
+border: 2px solid;
+
+}
+
+#info{
+  padding: 50px 30px 30px;
+  margin: 10px;
+}
+#title{
+  background-color: #dcd6f7;
+  text-align: left;
+  color: #a6b1e1;
+  padding-bottom: 20px;
+}
+#title .container-fluid {
+  padding: 3% 15% 7%;
+}
+
+#boiz{
+  margin-left: 60px;
+  border-radius: 10%;
+}
+/* Features */
+#features {
+  position: relative;
+  padding: 50px;
+}
+
+.feature-title {
+  font-size: 1.5rem;
+}
+
+.feature-box {
+  padding: 4.5%;
+}
+
+.icon {
+  color: #dcd6f7;
+  margin-bottom: 1rem;
+}
+
+.feature-title{
+  color: #424874;
+}
+
+.feature-desc{
+  color: #424874;
+}
+
+#Tick{
+  margin-left: 30px;
+}
+
+#Bullseye{
+ margin-left: 60px;
+}
+
+#Location{
+margin-left: 40px;
+}
+.icon:hover {
+  color: #424874;
+}
+/*  Testimonial  */
+
+#testimonials {
+  background-color: #dcd6f7;
+  padding: 7% 15%;
+  text-align: center;
+}
+
+.testimonial_text {
+  font-size: 3rem;
+  font-family: cursive;
+  line-height: 1.5;
+  padding-bottom: 30px;
+  color: #424874;
+}
+
+#testimonial_img {
+  width: 700px;
+  height: 500px;
+  border-radius: 10%;
+  margin-left: 190px;
+}

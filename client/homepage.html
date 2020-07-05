@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+  <!-- Popper JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+  <!-- Latest compiled JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+  <script src="https://kit.fontawesome.com/3ec09aa9eb.js" crossorigin="anonymous"></script>
+
+  <title>Home Page</title>
+
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:100,400,700,900|Ubuntu:300,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="homepage.css">
+</head>
+
+<body>
+
+  <section id="title">
+    <nav class="navbar navbar-expand-lg navbar-light ">
+      <a class="navbar-brand" id="title_text" href="#">Real-Estate Pricing</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+        <ul class="navbar-nav ml-auto">
+
+          <li nav-item>
+            <a class="nav-link" href="">Contact</a>
+          </li>
+          <li nav-item>
+            <a class="nav-link" href="">Pricing</a>
+          </li>
+          <li nav-item>
+            <a class="nav-link" href="">Download</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Collaborators
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="#">Tanishq Tapiawala</a>
+              <a class="dropdown-item" href="#">Akanksha Mansharamani</a>
+              <a class="dropdown-item" href="#">Varun Vora</a>
+            </div>
+          </li>
+        </ul>
+
+      </div>
+    </nav>
+    <!-- Title -->
+
+    <div id="info">
+      <div class="row">
+        <div class="col-lg-8">
+          <h1 class="desc">Want to predict the price of your next house?</h1>
+          <!-- To add icons with text (here, download with icons) , use site fontawesome.
+            Add script first and then call the icon if icon is not downloaded. You can also use
+           span instead of i to add icon to text on button-->
+          <button type="button" id="price" class="btn btn-outline-*"><i class="fa fa-calculator" aria-hidden="true"> </i> Calculate Estimated Price</button>
+        </div>
+        <div class="col-lg-4">
+
+
+          <img src="C:\Users\varun\Housing Project\logo\logo.jpg" alt="Boiz_Logo" id="boiz">
+
+
+        </div>
+      </div>
+
+
+    </div>
+
+  </section>
+
+  <section class="white-section" id="features">
+
+    <div class="container-fluid">
+
+      <div class="row">
+        <div class="feature-box col-lg-4">
+          <i class="icon fas fa-check-circle fa-4x" id="Tick"></i>
+          <h3 class="feature-title">Easy to use.</h3>
+          <p class="feauture-desc">So easy to use, even your dog could do it.</p>
+        </div>
+
+        <div class="feature-box col-lg-4">
+          <i class="icon fas fa-bullseye fa-4x" id="Bullseye"></i>
+          <h3 class="feature-title">Pinpoint Accuracy </h3>
+          <p class="feauture-desc">Accuracy builds credibility.</p>
+        </div>
+
+        <div class="feature-box col-lg-4">
+          <i class="fa icon fa-map-marker fa-4x" aria-hidden="true" id="Location"></i>
+          <h3 class="feature-title">Elite Locations.</h3>
+          <p class="feauture-desc">A marvellous collection of all the Elite Locations .</p>
+        </div>
+      </div>
+
+
+    </div>
+  </section>
+
+  <section class="colored-section" id="testimonials">
+
+    <div id="carouselExampleControls" class="carousel slide" data-ride="false">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <h2 class="testimonial_text">Build a Classic Lifestyle , Closer to Nature  </h2>
+        <img class="d-block" id="testimonial_img" src="C:\Users\varun\Housing Project\images\daniel-dinuzzo-qCjolcMFaLI-unsplash.jpg" alt="First slide">
+      </div>
+      <div class="carousel-item">
+        <h2 class="testimonial_text">Sprawling Around in Luxury, Will Never Get Old   </h2>
+        <img class="d-block "id="testimonial_img" src="C:\Users\varun\Housing Project\images\deborah-cortelazzi-gREquCUXQLI-unsplash.jpg" alt="Second slide">
+      </div>
+      <div class="carousel-item">
+        <h2 class="testimonial_text">Experience Mini-Balconies, Now Your Greens Have a Home Too  </h2>
+        <img class="d-block "id="testimonial_img" src="C:\Users\varun\Housing Project\images\jan-jakub-nanista-UHyrjKPsshk-unsplash.jpg" alt="Third slide">
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only"></span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only"></span>
+    </a>
+  </div>
+
+  </section>
+
+</body>
+
+</html>
